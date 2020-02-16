@@ -5,4 +5,6 @@ gemspec
 
 gem "delaunator", "~> 0.1.0"
 
+gem "gradient"
+
 gem "victor", "~> 0.2.8"
