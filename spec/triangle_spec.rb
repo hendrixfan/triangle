@@ -1,9 +1,15 @@
 RSpec.describe Triangle do
-  it "has a version number" do
-    expect(Triangle::VERSION).not_to be nil
+
+  let(:pattern) { Triangle.generate(seed: 100) }
+
+  describe '.generate' do
+    context 'same seed returns same output' do
+      let(:other_pattern) { Triangle.generate(seed: 100) }
+      it { expect(pattern.to_svg).to eq other_pattern.to_svg }
+    end
   end
 
-  it "does something useful" do
-    expect(false).to eq(true)
+  it "has a version number" do
+    expect(Triangle::VERSION).not_to be nil
   end
 end
