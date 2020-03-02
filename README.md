@@ -2,9 +2,7 @@
  <img src="https://user-images.githubusercontent.com/19203626/75708200-4899d380-5cb8-11ea-9d3b-6dc83360c7bf.png" alt="TrianglePattern Logo"/>
 </p>
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/triangle`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+With this Gem you can generate Filler Images (e.g. Backgrounds, Profile Pics etc.) for your projekt. It uses the Delaunay triangulation to generate a Mesh of Triangles.   
 
 ## Installation
 
