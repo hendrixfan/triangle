@@ -1,4 +1,4 @@
-module Triangle
+module TrianglePattern
   class SvgImage
     include Comparable
 

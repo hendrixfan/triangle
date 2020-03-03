@@ -1,10 +1,10 @@
 lib = File.expand_path("lib", __dir__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require "triangle/version"
+require "triangle_pattern/version"
 
 Gem::Specification.new do |spec|
   spec.name          = "triangle"
-  spec.version       = Triangle::VERSION
+  spec.version       = TrianglePattern::VERSION
   spec.authors       = ["Wolfgang Wohanka"]
   spec.email         = ["wolfgang.wohanka@pludoni.de"]
 

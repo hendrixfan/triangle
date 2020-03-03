@@ -2,7 +2,7 @@ require 'rake'
 require 'rake/tasklib'
 require 'logger'
 
-module Triangle
+module TrianglePattern
   class RakeTask < ::Rake::TaskLib
     include ::Rake::DSL if defined?(::Rake::DSL)
 

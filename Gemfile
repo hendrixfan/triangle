@@ -4,7 +4,7 @@ source "https://rubygems.org"
 gemspec
 
 group :development, :test do
-  gem 'rake'
+  gem 'rake', '< 11.0'
   gem 'rspec'
 end
 

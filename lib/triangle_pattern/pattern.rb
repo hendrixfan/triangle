@@ -1,10 +1,10 @@
-module Triangle
-  class SurfaceTriangulation
-    def initialize(width, height, cell_size, variance, seed, colors, svg = Triangle::SvgImage.new)
+module TrianglePattern
+  class Pattern
+    def initialize(width, height, cell_size, variance, seed, colors, svg = TrianglePattern::SvgImage.new)
       @svg    = svg
       @width = width
       @height = height
-      @points = Triangle::Grid.new(@width, @height, cell_size, variance, seed).generate_grid
+      @points = TrianglePattern::Grid.new(@width, @height, cell_size, variance, seed).generate_grid
       d = Delaunator::Triangulator.new(@points.flatten)
       d.triangulate
       @delauny_indicies = d.triangles

@@ -1,4 +1,4 @@
-module Triangle
+module TrianglePattern
   class Grid
 
     def initialize(width, height, cell_size, variance, seed)

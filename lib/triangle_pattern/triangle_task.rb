@@ -4,14 +4,9 @@ require 'triangle/rake_task'
 module Triangle
   class TriangleTask < RakeTask
     attr_reader :data
-
-    attr_reader :allowed_patterns
-
     def initialize(opts = {})
       super
-
       raise ArgumentError, :data if @options[:data].nil?
-
       @data             = @options[:data]
     end
 
@@ -31,7 +26,7 @@ module Triangle
           raise 'Invalid data structure for Rake Task'
         end
 
-        pattern = Triangle.generate(opts)
+        pattern = TrianglePattern.generate(opts)
 
         logger.info "Creating pattern at \"#{path}\"."
         FileUtils.mkdir_p File.dirname(path)
