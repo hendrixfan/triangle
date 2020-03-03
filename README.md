@@ -45,6 +45,16 @@ pattern = Triangle.generate(colors: ["#edf8fb", "#b2e2e2", "#66c2a4", "#2ca25f",
 
 ![image](https://user-images.githubusercontent.com/19203626/75806052-43558b00-5d83-11ea-8ae0-5f76d59127ed.png)
 
+get the pattern in svg:
+```ruby
+puts pattern.to_svg
+# => <svg xmlns="http://www.w3.org/2000/svg" ...
+```
+get the Base64 encoded string:
+```
+puts pattern.to_base64
+# => PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC...
+```
 ## Options
 
 You can pass several options to `Triangle.generate`
