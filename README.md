@@ -2,7 +2,7 @@
  <img src="https://user-images.githubusercontent.com/19203626/75708200-4899d380-5cb8-11ea-9d3b-6dc83360c7bf.png" alt="TrianglePattern Logo"/>
 </p>
 
-With this Gem you can generate Filler Images (e.g. Backgrounds, Profile Pics etc.) for your project. It uses the Delaunay triangulation to generate a Mesh of Triangles.
+With this gem you can generate placeholder images (e.g. Backgrounds, Profile Pics etc.) for your project. It uses the Delaunay triangulation to generate a mesh of triangles.
 
 | | |
 |:-------------------------:|:-------------------------:|
@@ -28,7 +28,42 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+To create a pattern use
+```ruby
+pattern = Triangle.generate
+```
+
+To generate a pattern with specific width and height
+```ruby
+pattern = Triangle.generate(width: 900, height: 500)
+```
+
+To generate a pattern with a specific set of colors
+```ruby
+pattern = Triangle.generate(colors: ["#edf8fb", "#b2e2e2", "#66c2a4", "#2ca25f", "#006d2c"])
+```
+## Options
+
+You can pass several options to `Triangle.generate`
+
+### width
+Integer, defaults to 900. Width in pixels of the pattern to generate.
+
+### height
+Integer, defaults to 500. Height in pixels of the pattern to generate.
+
+### cell_size
+Integer, defaults to 75. Size of the mesh used to generate triangles. Larger values will result in coarser patterns, smaller values will result in finer patterns.
+
+### variance
+Decimal value between 0 and 1, defaults to 0.75. Amount of randomness used when generating triangles.
+
+### seed
+Integer, defaults to 135. Is used to seed the random generator which generates the points for the mesh
+
+### colors
+
+Array, defaults to `["#ffffe5","#f7fcb9","#d9f0a3","#addd8e","#78c679","#41ab5d","#238443","#006837","#004529"]`. Defines the colors uses in the pattern. TrianglePattern interpolates between the given colors to generate a gradient.
 
 ## Development
 
