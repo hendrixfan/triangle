@@ -42,6 +42,9 @@ with a specific set of colors:
 ```ruby
 pattern = Triangle.generate(colors: ["#edf8fb", "#b2e2e2", "#66c2a4", "#2ca25f", "#006d2c"])
 ```
+
+![image](https://user-images.githubusercontent.com/19203626/75806052-43558b00-5d83-11ea-8ae0-5f76d59127ed.png)
+
 ## Options
 
 You can pass several options to `Triangle.generate`
