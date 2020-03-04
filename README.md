@@ -4,7 +4,7 @@
  <img src="https://user-images.githubusercontent.com/19203626/75708200-4899d380-5cb8-11ea-9d3b-6dc83360c7bf.png" alt="TrianglePattern Logo"/>
 </p>
 
-With this gem you can generate placeholder images (e.g. Backgrounds, Profile Pics etc.) for your project. It uses the Delaunay triangulation to generate a mesh of triangles.
+With this gem you can generate placeholder images (e.g. Backgrounds, Profile Pics etc.) for your project. It uses the [Delaunay Triangulation](https://www.mathworks.com/help/matlab/math/delaunay-triangulation.html) to generate a mesh of triangles.
 
 | | |
 |:-------------------------:|:-------------------------:|
@@ -78,7 +78,7 @@ Integer, defaults to 135. Is used to seed the random generator which generates t
 
 ### colors
 
-Array, defaults to `["#ffffe5","#f7fcb9","#d9f0a3","#addd8e","#78c679","#41ab5d","#238443","#006837","#004529"]`. Defines the colors uses in the pattern. TrianglePattern interpolates between the given colors to generate a gradient.
+Array, defaults to `["#ffffe5","#f7fcb9","#d9f0a3","#addd8e","#78c679","#41ab5d","#238443","#006837","#004529"]`. Defines the colors used in the pattern. TrianglePattern interpolates between the given colors to generate a smooth gradient. You can get colors by using the [Chroma.js Color Palette Helper](https://gka.github.io/palettes/#/9|s|00429d,96ffea,ffffe0|ffffe0,ff005e,93003a|1|1) for example.
 
 ## Rake
 
