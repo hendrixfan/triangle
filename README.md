@@ -4,7 +4,7 @@
  <img src="https://user-images.githubusercontent.com/19203626/75708200-4899d380-5cb8-11ea-9d3b-6dc83360c7bf.png" alt="TrianglePattern Logo"/>
 </p>
 
-With this gem you can generate placeholder images (e.g. Backgrounds, Profile Pics etc.) for your project. It uses the [Delaunay Triangulation](https://www.mathworks.com/help/matlab/math/delaunay-triangulation.html) to generate a mesh of triangles.
+With this gem you can generate SVG background-images for your project. It uses the [Delaunay Triangulation](https://www.mathworks.com/help/matlab/math/delaunay-triangulation.html) to generate a mesh of triangles. The triangles are also colored in a gradient given any set of colors.
 
 | | |
 |:-------------------------:|:-------------------------:|
