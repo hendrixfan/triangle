@@ -32,6 +32,8 @@ Or install it yourself as:
 
 To create a pattern use:
 ```ruby
+require 'triangle_pattern'
+
 pattern = TrianglePattern.generate
 ```
 
