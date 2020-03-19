@@ -5,7 +5,7 @@ require_relative 'lib/triangle_pattern/version'
 Gem::Specification.new do |spec|
   spec.name          = 'triangle_pattern'
   spec.version       = TrianglePattern::VERSION
-  spec.platform         = Gem::Platform::RUBY
+  spec.platform      = Gem::Platform::RUBY
   spec.authors       = ['Wolfgang Wohanka']
   spec.email         = ['wolfgang.wohanka@pludoni.de']
 
