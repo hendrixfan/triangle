@@ -106,6 +106,10 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 Bug reports and pull requests are welcome on GitHub at https://github.com/hendrixfan/triangle.
 
+## They are talking about it
+
+- [Rawsec - Generate background pattern in Ruby](https://rawsec.ml/en/generate-background-pattern-in-ruby/)
+
 ## License
 
 The gem is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
