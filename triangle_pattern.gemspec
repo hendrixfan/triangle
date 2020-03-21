@@ -18,7 +18,7 @@ Gem::Specification.new do |spec|
     'yard.run'          => 'yard',
     'bug_tracker_uri'   => 'https://github.com/hendrixfan/triangle/issues',
     'documentation_uri' => 'https://www.rubydoc.info/gems/triangle_pattern',
-    'homepage_uri'      => spec.homepage
+    'homepage_uri'      => spec.homepage,
     'source_code_uri'   => 'https://github.com/hendrixfan/triangle'
   }
 
