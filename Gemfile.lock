@@ -31,6 +31,7 @@ GEM
       diff-lcs (>= 1.2.0, < 2.0)
       rspec-support (~> 3.9.0)
     rspec-support (3.9.2)
+    scanf (1.0.0)
 
 PLATFORMS
   ruby
@@ -41,6 +42,7 @@ DEPENDENCIES
   gradient
   rake (< 14.0)
   rspec
+  scanf (~> 1.0)
   triangle_pattern!
 
 BUNDLED WITH

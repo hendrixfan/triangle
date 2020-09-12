@@ -11,3 +11,5 @@ end
 gem "delaunator", "~> 0.1.0"
 
 gem "gradient"
+
+gem "scanf", "~> 1.0"
