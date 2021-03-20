@@ -1,4 +1,6 @@
+![Ruby](https://github.com/hendrixfan/triangle/workflows/Ruby/badge.svg)
 [![Gem Version](https://badge.fury.io/rb/triangle_pattern.svg)](https://badge.fury.io/rb/triangle_pattern)
+
 
 <p align="center">
  <img src="https://user-images.githubusercontent.com/19203626/75708200-4899d380-5cb8-11ea-9d3b-6dc83360c7bf.png" alt="TrianglePattern Logo"/>
