@@ -42,6 +42,7 @@ DEPENDENCIES
   bundler (~> 2.0)
   delaunator (~> 0.1.0)
   gradient
+  nokogiri (>= 1.10.8)
   rake (< 14.0)
   rspec
   scanf (~> 1.0)
