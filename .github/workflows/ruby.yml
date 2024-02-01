@@ -19,11 +19,13 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Set up Ruby ${{ matrix.ruby-version }}
-        uses: ruby/setup-ruby@ec02537da5712d66d4d50a0f33b7eb52773b5ed1
+        uses: ruby/setup-ruby@v1
         with:
           ruby-version: ${{ matrix.ruby-version }}
+          bundler-cache: true
       - name: Install dependencies
         run: |
+          sudo apt-get install zlib1g-dev liblzma-dev patch
           gem install bundler
           bundle install --jobs 4 --retry 3 
       - name: Run tests
