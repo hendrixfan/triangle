@@ -25,7 +25,7 @@ jobs:
           bundler-cache: true
       - name: Install dependencies
         run: |
-          sudo apt-get install pkg-config libxml2-dev libxslt-dev
+          sudo apt-get install gcc pkg-config libxml2-dev libxslt-dev zlib1g-dev
           gem install bundler
           bundle install --jobs 4 --retry 3 
       - name: Run tests
